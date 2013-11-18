@@ -11,4 +11,4 @@
 // VIN Vault IDs
 #define VINVAULT_TOKEN @"REPLACE_ME"
 #define VINVAULT_API_VERSION @"application/vnd.vindata.v1"
-#define DATA_URL @"http://localhost:3000/api/decodes.json"
+#define DATA_URL @"http://api.vinvault.com/api/decodes.json"
