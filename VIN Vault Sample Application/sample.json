@@ -1,0 +1,3698 @@
+{
+    "decode": {
+        "api": "1",
+        "type": "2",
+        "id": "149",
+        "vin": "1D7RB1CT8AS203937",
+        "year": "2010",
+        "make": "Dodge",
+        "series": "Ram 1500",
+        "date": "2013-11-07 19:33:01 UTC",
+        "status": [
+                   "true",
+                   {
+                   "name": "VALIDCHECK",
+                   "message": "VIN has a valid checksum"
+                   },
+                   {
+                   "name": "VALIDCHARACTERS",
+                   "message": "VIN contains valid characters"
+                   },
+                   {
+                   "name": "MATCH",
+                   "message": "VIN matches vehicle pattern"
+                   },
+                   {
+                   "name": "VALID",
+                   "message": "Successfully decoded VIN"
+                   }
+                   ],
+        "modern": "true",
+        "trim": [
+                 {
+                 "id": "122950",
+                 "name": "Laramie Crew Cab 2WD",
+                 "data": [
+                          {
+                          "category": "Model Year",
+                          "value": "2010",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Make",
+                          "value": "Dodge",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Model",
+                          "value": "Ram 1500",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Trim Level",
+                          "value": "Laramie Crew Cab 2WD",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Origin",
+                          "value": "United States",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Body Type",
+                          "value": "Crew Cab Pickup 4 Dr",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Engine Type",
+                          "value": "5.7L V8 OHV 16V",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (short)",
+                          "value": "5A",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (long)",
+                          "value": "5-Speed Automatic",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driveline",
+                          "value": "RWD",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Fuel Tank",
+                          "value": "26.00",
+                          "unit": "gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (city)",
+                          "value": "14",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (hwy)",
+                          "value": "20",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "Anti-Brake System",
+                          "value": "4-Wheel ABS",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Steering Type",
+                          "value": "R&P",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Rear Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Turning Diameter",
+                          "value": "44.90",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Suspension",
+                          "value": "Ind",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Suspension",
+                          "value": "Live",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Spring Type",
+                          "value": "Coil",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Spring Type",
+                          "value": "Leaf",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Tires",
+                          "value": "275/60R20",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Front Headroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Headroom",
+                          "value": "39.90",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Legroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Legroom",
+                          "value": "40.30",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Shoulder Room",
+                          "value": "66.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Shoulder Room",
+                          "value": "65.70",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Interior Trim",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Dark Slate Leather Interior"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Light Pebble Beige/Bark Brown Leather Interior"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Exterior Color",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Austin Tan Pearl"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Austin Tan Pearl Coat/Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "3",
+                                     "value": "Bright Silver Metallic"
+                                     },
+                                     {
+                                     "id": "4",
+                                     "value": "Bright White"
+                                     },
+                                     {
+                                     "id": "5",
+                                     "value": "Bright White/Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "6",
+                                     "value": "Brilliant Black Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "7",
+                                     "value": "Brilliant Black Crystal Pearl/Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "8",
+                                     "value": "Deep Water Blue Pearl"
+                                     },
+                                     {
+                                     "id": "9",
+                                     "value": "Deep Water Blue Pearl Coat/Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "10",
+                                     "value": "Inferno Red Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "11",
+                                     "value": "Inferno Red Crystal Pearl Coat/Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "12",
+                                     "value": "Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "13",
+                                     "value": "Mineral Gray Metallic"
+                                     },
+                                     {
+                                     "id": "14",
+                                     "value": "Mineral Gray Metallic/Light Graystone Pearl"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Curb Weight",
+                          "value": "5368",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Length",
+                          "value": "229.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width",
+                          "value": "79.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Height",
+                          "value": "75.10",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Wheelbase",
+                          "value": "140.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Ground Clearance",
+                          "value": "9.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Front",
+                          "value": "68.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Rear",
+                          "value": "67.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Cargo Length",
+                          "value": "67.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wheelwell",
+                          "value": "51.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wall",
+                          "value": "66.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Depth",
+                          "value": "20.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Seating",
+                          "value": "6",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Optional Seating",
+                          "value": "5",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Passenger Volume",
+                          "value": "125.30",
+                          "unit": "cu.ft.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Towing",
+                          "value": "7650",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Towing",
+                          "value": "10200",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard Payload",
+                          "value": "1650",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Payload",
+                          "value": "1650",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Basic (duration)",
+                          "value": "36",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Basic (distance)",
+                          "value": "36,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (duration)",
+                          "value": "60",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (distance)",
+                          "value": "100,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "MSRP",
+                          "value": "$39,035",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Dealer Invoice",
+                          "value": "$35,806",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Destination Charge",
+                          "value": "$900",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Child Safety Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Power Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Vehicle Anti-Theft",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "ABS Brakes",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Electronic Brake Assistance",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Limited Slip Differential",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Vehicle Stability Control System",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driver Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Front Side Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Passenger Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Side Head Curtain Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Electronic Parking Aid",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Keyless Entry",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Remote Ignition",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Air Conditioning",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Comfort"
+                          },
+                          {
+                          "category": "Individual Climate Controls",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Comfort"
+                          },
+                          {
+                          "category": "Cruise Control",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tachometer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering Column",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Heated Steering Wheel",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Leather Steering Wheel",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Steering Wheel Mounted Controls",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Adjustable Foot Pedals",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tire Pressure Monitor",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Trip Computer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Navigation Aid",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Second Row Sound Controls",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Subwoofer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Driver Multi-Adjustable Power Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Cooled Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Heated Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Power Lumbar Support",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Power Memory Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Split Bench Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Leather Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Passenger Multi-Adjustable Power Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Second Row Folding Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Second Row Heated Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Cargo Area Cover",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Cargo Area Tiedowns",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Pickup Truck Bed Liner",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Manual Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Automatic Headlights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Fog Lights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Pickup Truck Cargo Box Light",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Running Boards",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Front Air Dam",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Spoiler",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Alloy Wheels",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Chrome Wheels",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Full Size Spare Tire",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Power Windows",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Electrochromic Exterior Rearview Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Heated Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Adjustable Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Interval Wipers",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Window Defogger",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Sliding Rear Pickup Truck Window",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tow Hitch Receiver",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          }
+                          ]
+                 },
+                 {
+                 "id": "122951",
+                 "name": "SLT Crew Cab 2WD",
+                 "data": [
+                          {
+                          "category": "Model Year",
+                          "value": "2010",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Make",
+                          "value": "Dodge",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Model",
+                          "value": "Ram 1500",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Trim Level",
+                          "value": "SLT Crew Cab 2WD",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Origin",
+                          "value": "United States",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Body Type",
+                          "value": "Crew Cab Pickup 4 Dr",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Engine Type",
+                          "value": "5.7L V8 OHV 16V",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (short)",
+                          "value": "5A",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (long)",
+                          "value": "5-Speed Automatic",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driveline",
+                          "value": "RWD",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Fuel Tank",
+                          "value": "26.00",
+                          "unit": "gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (city)",
+                          "value": "14",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (hwy)",
+                          "value": "19 - 20",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "Anti-Brake System",
+                          "value": "4-Wheel ABS",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Steering Type",
+                          "value": "R&P",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Rear Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Turning Diameter",
+                          "value": "45.10",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Suspension",
+                          "value": "Ind",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Suspension",
+                          "value": "Live",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Spring Type",
+                          "value": "Coil",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Spring Type",
+                          "value": "Leaf",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Tires",
+                          "value": "265/70R17",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Front Headroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Headroom",
+                          "value": "39.90",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Legroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Legroom",
+                          "value": "40.30",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Shoulder Room",
+                          "value": "66.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Shoulder Room",
+                          "value": "65.70",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Interior Trim",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Dark Slate/Medium Graystone Cloth Interior"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Light Pebble Beige/Bark Brown Cloth Interior"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Exterior Color",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Austin Tan Pearl"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Bright Silver Metallic"
+                                     },
+                                     {
+                                     "id": "3",
+                                     "value": "Bright White"
+                                     },
+                                     {
+                                     "id": "4",
+                                     "value": "Brilliant Black Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "5",
+                                     "value": "Deep Water Blue Pearl"
+                                     },
+                                     {
+                                     "id": "6",
+                                     "value": "Flame Red"
+                                     },
+                                     {
+                                     "id": "7",
+                                     "value": "Inferno Red Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "8",
+                                     "value": "Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "9",
+                                     "value": "Mango Tango Pearl"
+                                     },
+                                     {
+                                     "id": "10",
+                                     "value": "Mineral Gray Metallic"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Curb Weight",
+                          "value": "5064",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Length",
+                          "value": "229.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width",
+                          "value": "79.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Height",
+                          "value": "75.10",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Wheelbase",
+                          "value": "140.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Ground Clearance",
+                          "value": "9.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Front",
+                          "value": "68.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Rear",
+                          "value": "67.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Cargo Length",
+                          "value": "67.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wheelwell",
+                          "value": "51.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wall",
+                          "value": "66.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Depth",
+                          "value": "20.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Seating",
+                          "value": "6",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Optional Seating",
+                          "value": "5",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Passenger Volume",
+                          "value": "125.30",
+                          "unit": "cu.ft.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Towing",
+                          "value": "6200",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Towing",
+                          "value": "10200",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard Payload",
+                          "value": "1690",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Payload",
+                          "value": "1690",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Basic (duration)",
+                          "value": "36",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Basic (distance)",
+                          "value": "36,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (duration)",
+                          "value": "60",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (distance)",
+                          "value": "100,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "MSRP",
+                          "value": "$31,020",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Dealer Invoice",
+                          "value": "$28,713",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Destination Charge",
+                          "value": "$900",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Child Safety Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Power Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Vehicle Anti-Theft",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "ABS Brakes",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Electronic Brake Assistance",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Limited Slip Differential",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Vehicle Stability Control System",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driver Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Front Side Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Passenger Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Side Head Curtain Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Electronic Parking Aid",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Keyless Entry",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Remote Ignition",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Air Conditioning",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Comfort"
+                          },
+                          {
+                          "category": "Cruise Control",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tachometer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering Column",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Leather Steering Wheel",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Steering Wheel Mounted Controls",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Adjustable Foot Pedals",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tire Pressure Monitor",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Trip Computer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Navigation Aid",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Second Row Sound Controls",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Subwoofer",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Driver Multi-Adjustable Power Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Power Lumbar Support",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Split Bench Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Leather Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Second Row Folding Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Cargo Area Cover",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Cargo Area Tiedowns",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Pickup Truck Bed Liner",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Manual Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Automatic Headlights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Fog Lights",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Pickup Truck Cargo Box Light",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Running Boards",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Front Air Dam",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Spoiler",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Alloy Wheels",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Chrome Wheels",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Full Size Spare Tire",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Power Windows",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Electrochromic Exterior Rearview Mirror",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Heated Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Adjustable Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Interval Wipers",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Window Defogger",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Sliding Rear Pickup Truck Window",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tow Hitch Receiver",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          }
+                          ]
+                 },
+                 {
+                 "id": "122952",
+                 "name": "Sport Crew Cab 2WD",
+                 "data": [
+                          {
+                          "category": "Model Year",
+                          "value": "2010",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Make",
+                          "value": "Dodge",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Model",
+                          "value": "Ram 1500",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Trim Level",
+                          "value": "Sport Crew Cab 2WD",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Origin",
+                          "value": "United States",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Body Type",
+                          "value": "Crew Cab Pickup 4 Dr",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Engine Type",
+                          "value": "5.7L V8 OHV 16V",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (short)",
+                          "value": "5A",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (long)",
+                          "value": "5-Speed Automatic",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driveline",
+                          "value": "RWD",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Fuel Tank",
+                          "value": "26.00",
+                          "unit": "gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (city)",
+                          "value": "14",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (hwy)",
+                          "value": "20",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "Anti-Brake System",
+                          "value": "4-Wheel ABS",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Steering Type",
+                          "value": "R&P",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Rear Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Turning Diameter",
+                          "value": "44.90",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Suspension",
+                          "value": "Ind",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Suspension",
+                          "value": "Live",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Spring Type",
+                          "value": "Coil",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Spring Type",
+                          "value": "Leaf",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Tires",
+                          "value": "275/60R20",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Front Headroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Headroom",
+                          "value": "39.90",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Legroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Legroom",
+                          "value": "40.30",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Shoulder Room",
+                          "value": "66.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Shoulder Room",
+                          "value": "65.70",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Interior Trim",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Dark Slate Cloth Interior"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Dark Slate Leather Interior"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Exterior Color",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Bright Silver Metallic"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Brilliant Black Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "3",
+                                     "value": "Deep Water Blue Pearl"
+                                     },
+                                     {
+                                     "id": "4",
+                                     "value": "Flame Red"
+                                     },
+                                     {
+                                     "id": "5",
+                                     "value": "Inferno Red Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "6",
+                                     "value": "Mango Tango Pearl"
+                                     },
+                                     {
+                                     "id": "7",
+                                     "value": "Mineral Gray Metallic"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Curb Weight",
+                          "value": "5152",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Length",
+                          "value": "229.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width",
+                          "value": "79.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Height",
+                          "value": "75.10",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Wheelbase",
+                          "value": "140.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Ground Clearance",
+                          "value": "9.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Front",
+                          "value": "68.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Rear",
+                          "value": "67.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Cargo Length",
+                          "value": "67.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wheelwell",
+                          "value": "51.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wall",
+                          "value": "66.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Depth",
+                          "value": "20.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Seating",
+                          "value": "5",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Passenger Volume",
+                          "value": "125.30",
+                          "unit": "cu.ft.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Towing",
+                          "value": "7650",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Towing",
+                          "value": "10150",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard Payload",
+                          "value": "1650",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Payload",
+                          "value": "1650",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Basic (duration)",
+                          "value": "36",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Basic (distance)",
+                          "value": "36,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (duration)",
+                          "value": "60",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (distance)",
+                          "value": "100,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "MSRP",
+                          "value": "$35,255",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Dealer Invoice",
+                          "value": "$32,313",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Destination Charge",
+                          "value": "$900",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Child Safety Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Power Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Vehicle Anti-Theft",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "ABS Brakes",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Electronic Brake Assistance",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Limited Slip Differential",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Vehicle Stability Control System",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driver Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Front Side Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Passenger Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Side Head Curtain Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Electronic Parking Aid",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Keyless Entry",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Remote Ignition",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Air Conditioning",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Comfort"
+                          },
+                          {
+                          "category": "Individual Climate Controls",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Comfort"
+                          },
+                          {
+                          "category": "Cruise Control",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tachometer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering Column",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Heated Steering Wheel",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Leather Steering Wheel",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Steering Wheel Mounted Controls",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Adjustable Foot Pedals",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tire Pressure Monitor",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Trip Computer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Navigation Aid",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Second Row Sound Controls",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Subwoofer",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Driver Multi-Adjustable Power Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Cooled Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Heated Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Power Lumbar Support",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Leather Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Passenger Multi-Adjustable Power Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Second Row Folding Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Cargo Area Cover",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Cargo Area Tiedowns",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Pickup Truck Bed Liner",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Manual Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Automatic Headlights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Fog Lights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Pickup Truck Cargo Box Light",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Running Boards",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Front Air Dam",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Spoiler",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Alloy Wheels",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Chrome Wheels",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Full Size Spare Tire",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Power Windows",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Electrochromic Exterior Rearview Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Heated Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Adjustable Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Interval Wipers",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Window Defogger",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Sliding Rear Pickup Truck Window",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tow Hitch Receiver",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          }
+                          ]
+                 },
+                 {
+                 "id": "122953",
+                 "name": "ST Crew Cab 2WD",
+                 "data": [
+                          {
+                          "category": "Model Year",
+                          "value": "2010",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Make",
+                          "value": "Dodge",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Model",
+                          "value": "Ram 1500",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Trim Level",
+                          "value": "ST Crew Cab 2WD",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Origin",
+                          "value": "United States",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Body Type",
+                          "value": "Crew Cab Pickup 4 Dr",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Engine Type",
+                          "value": "5.7L V8 OHV 16V",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (short)",
+                          "value": "5A",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (long)",
+                          "value": "5-Speed Automatic",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driveline",
+                          "value": "RWD",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Fuel Tank",
+                          "value": "26.00",
+                          "unit": "gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (city)",
+                          "value": "14",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (hwy)",
+                          "value": "19 - 20",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "Anti-Brake System",
+                          "value": "4-Wheel ABS",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Steering Type",
+                          "value": "R&P",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Rear Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Turning Diameter",
+                          "value": "45.10",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Suspension",
+                          "value": "Ind",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Suspension",
+                          "value": "Live",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Spring Type",
+                          "value": "Coil",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Spring Type",
+                          "value": "Leaf",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Tires",
+                          "value": "265/70R17",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Front Headroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Headroom",
+                          "value": "39.90",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Legroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Legroom",
+                          "value": "40.30",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Shoulder Room",
+                          "value": "66.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Shoulder Room",
+                          "value": "65.70",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Interior Trim",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Dark Slate/Medium Graystone Cloth Interior"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Dark Slate/Medium Graystone Vinyl Interior"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Exterior Color",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Austin Tan Pearl"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Bright Silver Metallic"
+                                     },
+                                     {
+                                     "id": "3",
+                                     "value": "Bright White"
+                                     },
+                                     {
+                                     "id": "4",
+                                     "value": "Brilliant Black Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "5",
+                                     "value": "Deep Water Blue Pearl"
+                                     },
+                                     {
+                                     "id": "6",
+                                     "value": "Flame Red"
+                                     },
+                                     {
+                                     "id": "7",
+                                     "value": "Inferno Red Crystal Pearl"
+                                     },
+                                     {
+                                     "id": "8",
+                                     "value": "Light Graystone Pearl"
+                                     },
+                                     {
+                                     "id": "9",
+                                     "value": "Mango Tango Pearl"
+                                     },
+                                     {
+                                     "id": "10",
+                                     "value": "Mineral Gray Metallic"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Curb Weight",
+                          "value": "5064",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Length",
+                          "value": "229.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width",
+                          "value": "79.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Height",
+                          "value": "75.10",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Wheelbase",
+                          "value": "140.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Ground Clearance",
+                          "value": "9.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Front",
+                          "value": "68.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Rear",
+                          "value": "67.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Cargo Length",
+                          "value": "67.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wheelwell",
+                          "value": "51.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wall",
+                          "value": "66.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Depth",
+                          "value": "20.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Seating",
+                          "value": "6",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Passenger Volume",
+                          "value": "125.30",
+                          "unit": "cu.ft.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Towing",
+                          "value": "6200",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Towing",
+                          "value": "10200",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard Payload",
+                          "value": "1690",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Payload",
+                          "value": "1690",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Basic (duration)",
+                          "value": "36",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Basic (distance)",
+                          "value": "36,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (duration)",
+                          "value": "60",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (distance)",
+                          "value": "100,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "MSRP",
+                          "value": "$28,510",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Dealer Invoice",
+                          "value": "$26,491",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Destination Charge",
+                          "value": "$900",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Child Safety Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Power Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Vehicle Anti-Theft",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "ABS Brakes",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Electronic Brake Assistance",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Limited Slip Differential",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Vehicle Stability Control System",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driver Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Front Side Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Passenger Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Side Head Curtain Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Air Conditioning",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Comfort"
+                          },
+                          {
+                          "category": "Cruise Control",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tachometer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering Column",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tire Pressure Monitor",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Front Split Bench Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Second Row Folding Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Cargo Area Cover",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Pickup Truck Bed Liner",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Automatic Headlights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Pickup Truck Cargo Box Light",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Running Boards",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Front Air Dam",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Spoiler",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Chrome Wheels",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Full Size Spare Tire",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Steel Wheels",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Power Windows",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Heated Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Adjustable Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Interval Wipers",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tow Hitch Receiver",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          }
+                          ]
+                 },
+                 {
+                 "id": "122954",
+                 "name": "TRX Crew Cab 2WD",
+                 "data": [
+                          {
+                          "category": "Model Year",
+                          "value": "2010",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Make",
+                          "value": "Dodge",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Model",
+                          "value": "Ram 1500",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Trim Level",
+                          "value": "TRX Crew Cab 2WD",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Origin",
+                          "value": "United States",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Body Type",
+                          "value": "Crew Cab Pickup 4 Dr",
+                          "unit": "",
+                          "group": "Basic"
+                          },
+                          {
+                          "category": "Engine Type",
+                          "value": "5.7L V8 OHV 16V",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (short)",
+                          "value": "5A",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Transmission (long)",
+                          "value": "5-Speed Automatic",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driveline",
+                          "value": "RWD",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Fuel Tank",
+                          "value": "26.00",
+                          "unit": "gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (city)",
+                          "value": "14",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "MPG (hwy)",
+                          "value": "19 - 20",
+                          "unit": "miles/gallon",
+                          "group": "Fuel"
+                          },
+                          {
+                          "category": "Anti-Brake System",
+                          "value": "4-Wheel ABS",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Steering Type",
+                          "value": "R&P",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Rear Brake Type",
+                          "value": "Disc",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Turning Diameter",
+                          "value": "44.80",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Suspension",
+                          "value": "Ind",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Suspension",
+                          "value": "Live",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Front Spring Type",
+                          "value": "Coil",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Rear Spring Type",
+                          "value": "Leaf",
+                          "unit": "",
+                          "group": "Suspension"
+                          },
+                          {
+                          "category": "Tires",
+                          "value": "275/70R17",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Front Headroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Headroom",
+                          "value": "39.90",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Legroom",
+                          "value": "41.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Legroom",
+                          "value": "40.30",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Shoulder Room",
+                          "value": "66.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Shoulder Room",
+                          "value": "65.70",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Front Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Rear Hip Room",
+                          "value": "63.20",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Interior Trim",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Dark Slate/Medium Graystone Cloth Interior"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Light Pebble Beige/Bark Brown Cloth Interior"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Exterior Color",
+                          "value": "",
+                          "unit": "",
+                          "group": "Colors",
+                          "option": [
+                                     {
+                                     "id": "1",
+                                     "value": "Bright Silver Metallic/Mineral Gray Metallic"
+                                     },
+                                     {
+                                     "id": "2",
+                                     "value": "Bright White"
+                                     },
+                                     {
+                                     "id": "3",
+                                     "value": "Bright White/Mineral Gray Metallic"
+                                     },
+                                     {
+                                     "id": "4",
+                                     "value": "Brilliant Black Crystal Pearl/Mineral Gray Met"
+                                     },
+                                     {
+                                     "id": "5",
+                                     "value": "Deep Water Blue Pearl/Mineral Gray Metallic"
+                                     },
+                                     {
+                                     "id": "6",
+                                     "value": "Flame Red/Mineral Gray Metallic"
+                                     },
+                                     {
+                                     "id": "7",
+                                     "value": "Inferno Red Crystal Pearl/Mineral Gray Metallic"
+                                     },
+                                     {
+                                     "id": "8",
+                                     "value": "Mango Tango Pearl/Mineral Gray Metallic"
+                                     }
+                                     ]
+                          },
+                          {
+                          "category": "Curb Weight",
+                          "value": "5064",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Length",
+                          "value": "229.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width",
+                          "value": "79.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Height",
+                          "value": "75.10",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Wheelbase",
+                          "value": "140.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Ground Clearance",
+                          "value": "9.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Front",
+                          "value": "68.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Track Rear",
+                          "value": "67.50",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Cargo Length",
+                          "value": "67.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wheelwell",
+                          "value": "51.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Width at Wall",
+                          "value": "66.40",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Depth",
+                          "value": "20.00",
+                          "unit": "in.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Seating",
+                          "value": "6",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Optional Seating",
+                          "value": "5",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Passenger Volume",
+                          "value": "125.30",
+                          "unit": "cu.ft.",
+                          "group": "Dimensions"
+                          },
+                          {
+                          "category": "Standard Towing",
+                          "value": "6200",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Towing",
+                          "value": "10200",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard Payload",
+                          "value": "1690",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum Payload",
+                          "value": "1690",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Standard GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Maximum GVWR",
+                          "value": "6800",
+                          "unit": "lbs",
+                          "group": "Weight"
+                          },
+                          {
+                          "category": "Basic (duration)",
+                          "value": "36",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Basic (distance)",
+                          "value": "36,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (duration)",
+                          "value": "60",
+                          "unit": "month",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "Powertrain (distance)",
+                          "value": "100,000",
+                          "unit": "mile",
+                          "group": "Warranty"
+                          },
+                          {
+                          "category": "MSRP",
+                          "value": "$31,570",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Dealer Invoice",
+                          "value": "$29,181",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Destination Charge",
+                          "value": "$900",
+                          "unit": "USD",
+                          "group": "Pricing"
+                          },
+                          {
+                          "category": "Child Safety Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Power Door Locks",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Vehicle Anti-Theft",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "ABS Brakes",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Electronic Brake Assistance",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Braking"
+                          },
+                          {
+                          "category": "Limited Slip Differential",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Vehicle Stability Control System",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Drivetrain"
+                          },
+                          {
+                          "category": "Driver Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Front Side Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Passenger Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Side Head Curtain Airbag",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Electronic Parking Aid",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Keyless Entry",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Remote Ignition",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Safety"
+                          },
+                          {
+                          "category": "Air Conditioning",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Comfort"
+                          },
+                          {
+                          "category": "Cruise Control",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tachometer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tilt Steering Column",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Leather Steering Wheel",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Steering Wheel Mounted Controls",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Adjustable Foot Pedals",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tire Pressure Monitor",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Trip Computer",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Navigation Aid",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Second Row Sound Controls",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Subwoofer",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Entertainment"
+                          },
+                          {
+                          "category": "Driver Multi-Adjustable Power Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Power Lumbar Support",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Front Split Bench Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Leather Seat",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Second Row Folding Seat",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Seating"
+                          },
+                          {
+                          "category": "Cargo Area Cover",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Cargo Area Tiedowns",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Pickup Truck Bed Liner",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Manual Sunroof",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Automatic Headlights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Fog Lights",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Pickup Truck Cargo Box Light",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Lighting"
+                          },
+                          {
+                          "category": "Running Boards",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Front Air Dam",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Spoiler",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Alloy Wheels",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Full Size Spare Tire",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Wheels and Tires"
+                          },
+                          {
+                          "category": "Power Windows",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Electrochromic Exterior Rearview Mirror",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Heated Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Power Adjustable Exterior Mirror",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Interval Wipers",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Rear Window Defogger",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Sliding Rear Pickup Truck Window",
+                          "value": "Standard",
+                          "unit": "",
+                          "group": "Feature"
+                          },
+                          {
+                          "category": "Tow Hitch Receiver",
+                          "value": "Optional",
+                          "unit": "",
+                          "group": "Feature"
+                          }
+                          ]
+                 }
+                 ]
+    }
+}

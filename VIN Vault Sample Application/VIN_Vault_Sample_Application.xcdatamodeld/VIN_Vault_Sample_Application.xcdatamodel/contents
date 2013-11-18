@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="13A603" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Decode" representedClassName="Decode" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="vin" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vehicles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Vehicle" inverseName="decode" inverseEntity="Vehicle" syncable="YES"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="options" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ItemOption" inverseName="item" inverseEntity="ItemOption" syncable="YES"/>
+        <relationship name="vehicle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vehicle" inverseName="items" inverseEntity="Vehicle" syncable="YES"/>
+    </entity>
+    <entity name="ItemOption" representedClassName="ItemOption" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="options" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="Vehicle" representedClassName="Vehicle" syncable="YES">
+        <attribute name="make" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trim" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="decode" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Decode" inverseName="vehicles" inverseEntity="Decode" syncable="YES"/>
+        <relationship name="items" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Item" inverseName="vehicle" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Decode" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Item" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ItemOption" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Vehicle" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

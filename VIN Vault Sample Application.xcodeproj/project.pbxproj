@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E7777E315345C48CD369FC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E790F908024AF1BA8CEEB0 /* libPods.a */; };
+		6C5BAE6618356FBC0015B0D3 /* VINParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAE6518356FBC0015B0D3 /* VINParser.m */; };
+		6C5BAE6B183578280015B0D3 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C5BAE6A183578280015B0D3 /* sample.json */; };
+		6C5BAE8118357CE00015B0D3 /* Decode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAE7A18357CE00015B0D3 /* Decode.m */; };
+		6C5BAE8218357CE00015B0D3 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAE7C18357CE00015B0D3 /* Item.m */; };
+		6C5BAE8318357CE00015B0D3 /* ItemOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAE7E18357CE00015B0D3 /* ItemOption.m */; };
+		6C5BAE8418357CE00015B0D3 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAE8018357CE00015B0D3 /* Vehicle.m */; };
+		6C5BAE9C18359E550015B0D3 /* Decode+Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAE9B18359E550015B0D3 /* Decode+Detail.m */; };
+		6C5BAE9F1835A0790015B0D3 /* VehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAE9E1835A0790015B0D3 /* VehicleViewController.m */; };
+		6C5BAEA21835A0B80015B0D3 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAEA11835A0B80015B0D3 /* ItemViewController.m */; };
+		6C5BAEA51835A10E0015B0D3 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAEA41835A10E0015B0D3 /* OptionViewController.m */; };
+		6C5BAEA81835AFBB0015B0D3 /* Vehicle+Sectioned.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BAEA71835AFBB0015B0D3 /* Vehicle+Sectioned.m */; };
+		6C806DBC1839B1C70031B8D1 /* Item+Sorted.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C806DBB1839B1C70031B8D1 /* Item+Sorted.m */; };
+		6CC5A9441839CE2700541DE5 /* Decode+Sorted.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC5A9431839CE2700541DE5 /* Decode+Sorted.m */; };
+		A85480C52FFFCB9534D7AF03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A854852B86FF89BDCE8419EB /* Images.xcassets */; };
+		A854810FC0A19E1B9DFF5377 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8548CB2E75C723464700C0C /* Main_iPhone.storyboard */; };
+		A854813F27BDE3F4A6BB8586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A854818FD742F96496E36BD0 /* InfoPlist.strings */; };
+		A854827AEE9641D00B9A58A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8548B9F44FD7C82B2AE4AA4 /* CoreData.framework */; };
+		A854847FEEBDBE5BE7329FAB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8548B9F44FD7C82B2AE4AA4 /* CoreData.framework */; };
+		A854849184E38C05D4C2029A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85482D56F1DC54B3E936D56 /* UIKit.framework */; };
+		A85487DC77E4D4EFCDF4A8C2 /* VINMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85487D6FC9E9ECB48E39A74 /* VINMasterViewController.m */; };
+		A854881D17DBF9B89573BB92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8548D04760EFF5893CEAD45 /* CoreGraphics.framework */; };
+		A854883713789781338D4D6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85482D56F1DC54B3E936D56 /* UIKit.framework */; };
+		A854886215A3D6E813553370 /* VIN_Vault_Sample_ApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85487EBA2806741D80496CB /* VIN_Vault_Sample_ApplicationTests.m */; };
+		A8548944FB293A08D6DA8717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A854803BF115A2D3DF88BCC2 /* Foundation.framework */; };
+		A8548982ACF6631D130F6D29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85487F52F67D98FDDC738B0 /* XCTest.framework */; };
+		A8548A719150CD7B40BDF0E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A85481ECFF511B0493E8A244 /* InfoPlist.strings */; };
+		A8548B12F6177AC46569EBAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8548967CE89259DE2428AD1 /* main.m */; };
+		A8548B94FC8D36F1CB9BFB0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A854803BF115A2D3DF88BCC2 /* Foundation.framework */; };
+		A8548E6A946611430B9BC342 /* VIN_Vault_Sample_Application.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A854801ACE03CD8FFDFA123B /* VIN_Vault_Sample_Application.xcdatamodeld */; };
+		A8548FCABC2E457E5B0B7DF5 /* VINAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A854843465A97B5B659ABEC9 /* VINAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A854878010E654CDD90AFE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8548A85FFF10F5BE728F299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85486814316779D3C2FF2D6;
+			remoteInfo = "VIN Vault Sample Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C5BAE6418356FBC0015B0D3 /* VINParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VINParser.h; sourceTree = "<group>"; };
+		6C5BAE6518356FBC0015B0D3 /* VINParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VINParser.m; sourceTree = "<group>"; };
+		6C5BAE67183573E20015B0D3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6C5BAE6A183578280015B0D3 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		6C5BAE7918357CE00015B0D3 /* Decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decode.h; sourceTree = "<group>"; };
+		6C5BAE7A18357CE00015B0D3 /* Decode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decode.m; sourceTree = "<group>"; };
+		6C5BAE7B18357CE00015B0D3 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		6C5BAE7C18357CE00015B0D3 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		6C5BAE7D18357CE00015B0D3 /* ItemOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemOption.h; sourceTree = "<group>"; };
+		6C5BAE7E18357CE00015B0D3 /* ItemOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemOption.m; sourceTree = "<group>"; };
+		6C5BAE7F18357CE00015B0D3 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		6C5BAE8018357CE00015B0D3 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		6C5BAE8518357EDE0015B0D3 /* ExtendingDecode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExtendingDecode.xcdatamodel; sourceTree = "<group>"; };
+		6C5BAE9A18359E550015B0D3 /* Decode+Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Decode+Detail.h"; path = "Model Classes/Decode+Detail.h"; sourceTree = "<group>"; };
+		6C5BAE9B18359E550015B0D3 /* Decode+Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Decode+Detail.m"; path = "Model Classes/Decode+Detail.m"; sourceTree = "<group>"; };
+		6C5BAE9D1835A0790015B0D3 /* VehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VehicleViewController.h; path = "UI Classes/VehicleViewController.h"; sourceTree = "<group>"; };
+		6C5BAE9E1835A0790015B0D3 /* VehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VehicleViewController.m; path = "UI Classes/VehicleViewController.m"; sourceTree = "<group>"; };
+		6C5BAEA01835A0B80015B0D3 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemViewController.h; path = "UI Classes/ItemViewController.h"; sourceTree = "<group>"; };
+		6C5BAEA11835A0B80015B0D3 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemViewController.m; path = "UI Classes/ItemViewController.m"; sourceTree = "<group>"; };
+		6C5BAEA31835A10E0015B0D3 /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionViewController.h; path = "UI Classes/OptionViewController.h"; sourceTree = "<group>"; };
+		6C5BAEA41835A10E0015B0D3 /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionViewController.m; path = "UI Classes/OptionViewController.m"; sourceTree = "<group>"; };
+		6C5BAEA61835AFBB0015B0D3 /* Vehicle+Sectioned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Vehicle+Sectioned.h"; path = "Model Classes/Vehicle+Sectioned.h"; sourceTree = "<group>"; };
+		6C5BAEA71835AFBB0015B0D3 /* Vehicle+Sectioned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Vehicle+Sectioned.m"; path = "Model Classes/Vehicle+Sectioned.m"; sourceTree = "<group>"; };
+		6C806DBA1839B1C70031B8D1 /* Item+Sorted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+Sorted.h"; sourceTree = "<group>"; };
+		6C806DBB1839B1C70031B8D1 /* Item+Sorted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+Sorted.m"; sourceTree = "<group>"; };
+		6CC5A9421839CE2700541DE5 /* Decode+Sorted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Decode+Sorted.h"; path = "Model Classes/Decode+Sorted.h"; sourceTree = "<group>"; };
+		6CC5A9431839CE2700541DE5 /* Decode+Sorted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Decode+Sorted.m"; path = "Model Classes/Decode+Sorted.m"; sourceTree = "<group>"; };
+		723F5644D64147E8AC7004C0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		74E790F908024AF1BA8CEEB0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A854803BF115A2D3DF88BCC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A854809837CCDFA31FBA955D /* VIN Vault Sample ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "VIN Vault Sample ApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		A85480ECAEEFD4CE5F309037 /* VIN Vault Sample Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "VIN Vault Sample Application-Info.plist"; sourceTree = "<group>"; };
+		A85481B049D04480703DCF0A /* VIN Vault Sample Application-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIN Vault Sample Application-Prefix.pch"; sourceTree = "<group>"; };
+		A85482D56F1DC54B3E936D56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A854843465A97B5B659ABEC9 /* VINAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VINAppDelegate.m; sourceTree = "<group>"; };
+		A854852B86FF89BDCE8419EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A85485D84F39390B8E57F6CF /* VIN Vault Sample ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIN Vault Sample ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85487D6FC9E9ECB48E39A74 /* VINMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VINMasterViewController.m; sourceTree = "<group>"; };
+		A85487EBA2806741D80496CB /* VIN_Vault_Sample_ApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIN_Vault_Sample_ApplicationTests.m; sourceTree = "<group>"; };
+		A85487F52F67D98FDDC738B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A8548858AA64FE99EB65B5A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8548967CE89259DE2428AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A85489ADD0EABDE9366F102D /* VINMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINMasterViewController.h; sourceTree = "<group>"; };
+		A8548A93B993C9E6AB62C4E0 /* VINAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINAppDelegate.h; sourceTree = "<group>"; };
+		A8548B9F44FD7C82B2AE4AA4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A8548CABAD0312666F98BBDF /* VIN_Vault_Sample_Application.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VIN_Vault_Sample_Application.xcdatamodel; sourceTree = "<group>"; };
+		A8548CB9BAA135218446370D /* VIN Vault Sample Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIN Vault Sample Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8548D04760EFF5893CEAD45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8548F5916C478268D4DBDEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8548FBD73F7B57049FC50D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85485B51F96D892574D060F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8548982ACF6631D130F6D29 /* XCTest.framework in Frameworks */,
+				A8548B94FC8D36F1CB9BFB0D /* Foundation.framework in Frameworks */,
+				A854883713789781338D4D6D /* UIKit.framework in Frameworks */,
+				A854827AEE9641D00B9A58A1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A854896815BF097E74E0EDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8548944FB293A08D6DA8717 /* Foundation.framework in Frameworks */,
+				A854881D17DBF9B89573BB92 /* CoreGraphics.framework in Frameworks */,
+				A854849184E38C05D4C2029A /* UIKit.framework in Frameworks */,
+				A854847FEEBDBE5BE7329FAB /* CoreData.framework in Frameworks */,
+				11E7777E315345C48CD369FC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C5BAE6318356F990015B0D3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C5BAE9618359E100015B0D3 /* Categories */,
+				6C5BAE9218359C170015B0D3 /* UI Classes */,
+				6C5BAE7818357CE00015B0D3 /* Model Classes */,
+				6C5BAE6418356FBC0015B0D3 /* VINParser.h */,
+				6C5BAE6518356FBC0015B0D3 /* VINParser.m */,
+				6C5BAE67183573E20015B0D3 /* Constants.h */,
+				6C5BAE9D1835A0790015B0D3 /* VehicleViewController.h */,
+				6C5BAE9E1835A0790015B0D3 /* VehicleViewController.m */,
+				6C5BAEA01835A0B80015B0D3 /* ItemViewController.h */,
+				6C5BAEA11835A0B80015B0D3 /* ItemViewController.m */,
+				6C5BAEA31835A10E0015B0D3 /* OptionViewController.h */,
+				6C5BAEA41835A10E0015B0D3 /* OptionViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6C5BAE7818357CE00015B0D3 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C5BAE7918357CE00015B0D3 /* Decode.h */,
+				6C5BAE7A18357CE00015B0D3 /* Decode.m */,
+				6C5BAE7B18357CE00015B0D3 /* Item.h */,
+				6C5BAE7C18357CE00015B0D3 /* Item.m */,
+				6C5BAE7D18357CE00015B0D3 /* ItemOption.h */,
+				6C5BAE7E18357CE00015B0D3 /* ItemOption.m */,
+				6C5BAE7F18357CE00015B0D3 /* Vehicle.h */,
+				6C5BAE8018357CE00015B0D3 /* Vehicle.m */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		6C5BAE9218359C170015B0D3 /* UI Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "UI Classes";
+			sourceTree = "<group>";
+		};
+		6C5BAE9618359E100015B0D3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6C5BAE9A18359E550015B0D3 /* Decode+Detail.h */,
+				6C5BAE9B18359E550015B0D3 /* Decode+Detail.m */,
+				6C5BAEA61835AFBB0015B0D3 /* Vehicle+Sectioned.h */,
+				6C5BAEA71835AFBB0015B0D3 /* Vehicle+Sectioned.m */,
+				6C806DBA1839B1C70031B8D1 /* Item+Sorted.h */,
+				6C806DBB1839B1C70031B8D1 /* Item+Sorted.m */,
+				6CC5A9421839CE2700541DE5 /* Decode+Sorted.h */,
+				6CC5A9431839CE2700541DE5 /* Decode+Sorted.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A85480BA01A194E251AC54BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8548CB9BAA135218446370D /* VIN Vault Sample Application.app */,
+				A85485D84F39390B8E57F6CF /* VIN Vault Sample ApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A854840DB6FDD1D9300FF265 /* VIN Vault Sample ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8548BE22ACD26EBC2364322 /* Supporting Files */,
+				A85487EBA2806741D80496CB /* VIN_Vault_Sample_ApplicationTests.m */,
+			);
+			path = "VIN Vault Sample ApplicationTests";
+			sourceTree = "<group>";
+		};
+		A85485A60F362B356A8680E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A854803BF115A2D3DF88BCC2 /* Foundation.framework */,
+				A8548D04760EFF5893CEAD45 /* CoreGraphics.framework */,
+				A85482D56F1DC54B3E936D56 /* UIKit.framework */,
+				A8548B9F44FD7C82B2AE4AA4 /* CoreData.framework */,
+				A85487F52F67D98FDDC738B0 /* XCTest.framework */,
+				74E790F908024AF1BA8CEEB0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A854881AF665463E3F086C42 = {
+			isa = PBXGroup;
+			children = (
+				A85480BA01A194E251AC54BD /* Products */,
+				A85485A60F362B356A8680E9 /* Frameworks */,
+				A8548AD31929A8CF43C19B6C /* VIN Vault Sample Application */,
+				A854840DB6FDD1D9300FF265 /* VIN Vault Sample ApplicationTests */,
+				723F5644D64147E8AC7004C0 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A8548AD31929A8CF43C19B6C /* VIN Vault Sample Application */ = {
+			isa = PBXGroup;
+			children = (
+				6C5BAE6318356F990015B0D3 /* Classes */,
+				A8548AEA11FBFF328BE384F0 /* Supporting Files */,
+				A8548A93B993C9E6AB62C4E0 /* VINAppDelegate.h */,
+				A854843465A97B5B659ABEC9 /* VINAppDelegate.m */,
+				A854852B86FF89BDCE8419EB /* Images.xcassets */,
+				A854801ACE03CD8FFDFA123B /* VIN_Vault_Sample_Application.xcdatamodeld */,
+				A8548CB2E75C723464700C0C /* Main_iPhone.storyboard */,
+				A85489ADD0EABDE9366F102D /* VINMasterViewController.h */,
+				A85487D6FC9E9ECB48E39A74 /* VINMasterViewController.m */,
+			);
+			path = "VIN Vault Sample Application";
+			sourceTree = "<group>";
+		};
+		A8548AEA11FBFF328BE384F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A85480ECAEEFD4CE5F309037 /* VIN Vault Sample Application-Info.plist */,
+				A854818FD742F96496E36BD0 /* InfoPlist.strings */,
+				A8548967CE89259DE2428AD1 /* main.m */,
+				A85481B049D04480703DCF0A /* VIN Vault Sample Application-Prefix.pch */,
+				6C5BAE6A183578280015B0D3 /* sample.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8548BE22ACD26EBC2364322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A854809837CCDFA31FBA955D /* VIN Vault Sample ApplicationTests-Info.plist */,
+				A85481ECFF511B0493E8A244 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85486814316779D3C2FF2D6 /* VIN Vault Sample Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8548B30B521111E55F037FF /* Build configuration list for PBXNativeTarget "VIN Vault Sample Application" */;
+			buildPhases = (
+				682AD8696BF24E4E8AC46D4D /* Check Pods Manifest.lock */,
+				A85484BD26ACCD53018D8E7C /* Sources */,
+				A854896815BF097E74E0EDD5 /* Frameworks */,
+				A8548455398FE3EB45B4D975 /* Resources */,
+				D9B1B1A3B80C447C90B37B37 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIN Vault Sample Application";
+			productName = "VIN Vault Sample Application";
+			productReference = A8548CB9BAA135218446370D /* VIN Vault Sample Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8548BB0B21BCE3AD81F2F9B /* VIN Vault Sample ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8548ECCAD950D2D22DC854A /* Build configuration list for PBXNativeTarget "VIN Vault Sample ApplicationTests" */;
+			buildPhases = (
+				A85481011B6C4BA0CFE1A361 /* Sources */,
+				A85485B51F96D892574D060F /* Frameworks */,
+				A85489B15780C1F6ACF180D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85482918DFD28186E25A3CD /* PBXTargetDependency */,
+			);
+			name = "VIN Vault Sample ApplicationTests";
+			productName = "VIN Vault Sample ApplicationTests";
+			productReference = A85485D84F39390B8E57F6CF /* VIN Vault Sample ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8548A85FFF10F5BE728F299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "VIN Vault LLC";
+			};
+			buildConfigurationList = A8548C1C83687E4560BEA791 /* Build configuration list for PBXProject "VIN Vault Sample Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A854881AF665463E3F086C42;
+			productRefGroup = A85480BA01A194E251AC54BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85486814316779D3C2FF2D6 /* VIN Vault Sample Application */,
+				A8548BB0B21BCE3AD81F2F9B /* VIN Vault Sample ApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8548455398FE3EB45B4D975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5BAE6B183578280015B0D3 /* sample.json in Resources */,
+				A854813F27BDE3F4A6BB8586 /* InfoPlist.strings in Resources */,
+				A85480C52FFFCB9534D7AF03 /* Images.xcassets in Resources */,
+				A854810FC0A19E1B9DFF5377 /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85489B15780C1F6ACF180D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8548A719150CD7B40BDF0E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		682AD8696BF24E4E8AC46D4D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B1B1A3B80C447C90B37B37 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85481011B6C4BA0CFE1A361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A854886215A3D6E813553370 /* VIN_Vault_Sample_ApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85484BD26ACCD53018D8E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5BAE9C18359E550015B0D3 /* Decode+Detail.m in Sources */,
+				6C5BAE8218357CE00015B0D3 /* Item.m in Sources */,
+				6C806DBC1839B1C70031B8D1 /* Item+Sorted.m in Sources */,
+				6C5BAE6618356FBC0015B0D3 /* VINParser.m in Sources */,
+				A8548B12F6177AC46569EBAA /* main.m in Sources */,
+				A8548FCABC2E457E5B0B7DF5 /* VINAppDelegate.m in Sources */,
+				A8548E6A946611430B9BC342 /* VIN_Vault_Sample_Application.xcdatamodeld in Sources */,
+				6C5BAEA21835A0B80015B0D3 /* ItemViewController.m in Sources */,
+				6C5BAE8318357CE00015B0D3 /* ItemOption.m in Sources */,
+				6C5BAEA51835A10E0015B0D3 /* OptionViewController.m in Sources */,
+				6CC5A9441839CE2700541DE5 /* Decode+Sorted.m in Sources */,
+				A85487DC77E4D4EFCDF4A8C2 /* VINMasterViewController.m in Sources */,
+				6C5BAE8118357CE00015B0D3 /* Decode.m in Sources */,
+				6C5BAE8418357CE00015B0D3 /* Vehicle.m in Sources */,
+				6C5BAE9F1835A0790015B0D3 /* VehicleViewController.m in Sources */,
+				6C5BAEA81835AFBB0015B0D3 /* Vehicle+Sectioned.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85482918DFD28186E25A3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85486814316779D3C2FF2D6 /* VIN Vault Sample Application */;
+			targetProxy = A854878010E654CDD90AFE02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A854818FD742F96496E36BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8548858AA64FE99EB65B5A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A85481ECFF511B0493E8A244 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8548F5916C478268D4DBDEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8548CB2E75C723464700C0C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8548FBD73F7B57049FC50D2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85480F98D5B07EF4F582951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIN Vault Sample Application/VIN Vault Sample Application-Prefix.pch";
+				INFOPLIST_FILE = "VIN Vault Sample ApplicationTests/VIN Vault Sample ApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A85483E73C6DD1F0E619FDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723F5644D64147E8AC7004C0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIN Vault Sample Application/VIN Vault Sample Application-Prefix.pch";
+				INFOPLIST_FILE = "VIN Vault Sample Application/VIN Vault Sample Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8548750F573A514DED4CABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIN Vault Sample Application/VIN Vault Sample Application-Prefix.pch";
+				INFOPLIST_FILE = "VIN Vault Sample ApplicationTests/VIN Vault Sample ApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		A85488DB07B27D68E5F079DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8548952FA6974BA356BC262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723F5644D64147E8AC7004C0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIN Vault Sample Application/VIN Vault Sample Application-Prefix.pch";
+				INFOPLIST_FILE = "VIN Vault Sample Application/VIN Vault Sample Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8548AED682CC3BC0B22A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8548B30B521111E55F037FF /* Build configuration list for PBXNativeTarget "VIN Vault Sample Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85483E73C6DD1F0E619FDCE /* Release */,
+				A8548952FA6974BA356BC262 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8548C1C83687E4560BEA791 /* Build configuration list for PBXProject "VIN Vault Sample Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85488DB07B27D68E5F079DD /* Release */,
+				A8548AED682CC3BC0B22A35E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8548ECCAD950D2D22DC854A /* Build configuration list for PBXNativeTarget "VIN Vault Sample ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8548750F573A514DED4CABF /* Release */,
+				A85480F98D5B07EF4F582951 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A854801ACE03CD8FFDFA123B /* VIN_Vault_Sample_Application.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C5BAE8518357EDE0015B0D3 /* ExtendingDecode.xcdatamodel */,
+				A8548CABAD0312666F98BBDF /* VIN_Vault_Sample_Application.xcdatamodel */,
+			);
+			currentVersion = 6C5BAE8518357EDE0015B0D3 /* ExtendingDecode.xcdatamodel */;
+			path = VIN_Vault_Sample_Application.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8548A85FFF10F5BE728F299 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Reachability (3.1.1)
+  - SKBounceAnimation (1.0.03)
+  - ZAActivityBar (0.1.1):
+    - SKBounceAnimation (~> 1.0)
+
+DEPENDENCIES:
+  - Reachability
+  - ZAActivityBar
+
+SPEC CHECKSUMS:
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  SKBounceAnimation: 116cdcda440d52f2f6d176032678ffd526ec652a
+  ZAActivityBar: 709b333891ee822d80fda8f641030f586e02735f
+
+COCOAPODS: 0.28.0
