@@ -87,7 +87,6 @@
         NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
         [context deleteObject:[self.fetchedResultsController objectAtIndexPath:indexPath]];
         
-        // I know, I know, this is sloppy.  You're more than welcome to handle this more appropriately... :)
         NSError *error = nil;
         if (![context save:&error]) {
              // Replace this implementation with code to handle the error appropriately.
@@ -149,8 +148,6 @@
     NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:@"Master"];
     aFetchedResultsController.delegate = self;
     self.fetchedResultsController = aFetchedResultsController;
-    
-    // I know, I know, this is sloppy.  You're more than welcome to handle this more appropriately... :)
     
 	NSError *error = nil;
 	if (![self.fetchedResultsController performFetch:&error]) {
@@ -271,6 +268,7 @@
     [request setHTTPBody:requestBody];
     NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     [connection start];
+
     // Hide activity indicator
     [ZAActivityBar showWithStatus:[NSString stringWithFormat:@"Decoding: %@", vin]];
     if (connection) {
@@ -297,16 +295,19 @@
         }
 
     }];
+
     // Hide activity indicator
     [ZAActivityBar dismiss];
 }
 
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
+
     NSString *message = error.localizedDescription;
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Loading Error" message:message delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
     
     [alert show];
+
     // Hide activity indicator
     [ZAActivityBar dismiss];
 }
